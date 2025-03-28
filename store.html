@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLNN Beauty Store</title>  
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="Store.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+
+    <img src="img/logo.png" class="logo" alt="FLNN Beauty Store Logo">
+
+    <form action="" class="search_box">
+        <select id="category" name="category">
+            <option value="All products">All products</option>  
+            <option value="makeup">Makeup</option>
+            <option value="Cosmetic and Skin care tools">Cosmetic and Skin Care Tools</option>
+            <option value="Skin care">Skin Care</option>
+        </select> 
+    </form>
+
+    <div class="header_icons">
+        <div class="icons">
+            <i class="fa-regular fa-heart heart-icon"></i>
+            <span class="count count_favourite">0</span>
+
+            <i class="fa-solid fa-cart-shopping cart-icon"></i>
+            <span class="count count_item_header">0</span>
+        </div>
+    </div>
+</header>
+
+<section class="products-container">
+    <div class="product" data-category="Cosmetic and Skin Care Tools">
+        <img src="img/Beauty Blender Set.jpg" alt="product 1">
+        <h3> Beauty Blender Set</h3>
+        <p class="price">5.44SR</p>
+        <div class="product-actions">
+            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+            <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+        </div>
+    </div>
+
+    <div class="product" data-category="Cosmetic and Skin Care Tools">
+        <img src="img/Bow Decorated Hair Brush.jpg" alt="product 2">
+        <h3> Bow Decorated Hair Brush</h3>
+        <p class="price">6.80SR</p>
+        <div class="product-actions">
+            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+            <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+        </div>
+    </div>
+
+
+
+
+    <div class="product" data-category="Cosmetic and Skin Care Tools">
+        <img src="img/Decorative Nail File.jpg" alt="product 3">
+        <h3> Decorative Nail File</h3>
+        <p class="price">3.50SR</p>
+        <div class="product-actions">
+            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+            <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+        </div>
+    </div>
+
+    <div class="product" data-category="Cosmetic and Skin Care Tools">
+        <img src="img/Eyelash Curler.jpg" alt="product 4">
+        <h3> Eyelash Curler</h3>
+        <p class="price">10.00SR</p>
+        <div class="product-actions">
+            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+            <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+        </div>
+    </div>
+
+    <div class="product" data-category="Cosmetic and Skin Care Tools">
+        <img src="img/Facial Mask Mixing Set.jpg" alt="product 5">
+        <h3> Facial Mask Mixing Set</h3>
+        <p class="price">12.50SR</p>
+        <div class="product-actions">
+            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+            <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+        </div>
+    </div>
+        <div class="product" data-category="Skin Care">
+            <img src="img/Ice Face Roller.jpg" alt="product 6">
+            <h3> Ice Face Roller</h3>
+            <p class="price">5.10SR</p>
+            <div class="product-actions">
+                <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+            
+            </div>
+            </div>
+
+            <div class="product" data-category="Cosmetic and Skin Care Tools">
+                <img src="img/Jade Roller & Gua sha Set.jpg" alt="product 7">
+                <h3>Jade Roller & Gua sha Set </h3>
+                <p class="price">5.10SR</p>
+                <div class="product-actions">
+                    <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                    <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                </div>
+              </div>
+
+                <div class="product" data-category="Cosmetic and Care Tools">
+                    <img src="img/Makeup brush set.jpg" alt="product 8">
+                    <h3> Makeup brush set</h3>
+                    <p class="price">9.40SR</p>
+                    <div class="product-actions">
+                        <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                        <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                    </div>
+                    </div> 
+                    
+                    <div class="product" data-category="Cosmetic and Skin Care Tools">
+                        <img src="img/Disposable Mascara Wands.jpg" alt="product 9">
+                        <h3> Disposable Mascara Wands</h3>
+                        <p class="price">6.50SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+    
+
+                    <div class="product" data-category="Makeup">
+                        <img src="img/Eyebrow Soap.jpg" alt="product 10">
+                        <h3> Eyebrow Soap</h3>
+                        <p class="price">5.00SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    
+                    <div class="product" data-category="Skin Care">
+                        <img src="img/Bioaqua Rose Hyaluronic Acid Moisturizing Eye Mask.jpg" alt="product 11">
+                        <h3> Bioaqua Rose Hyaluronic Acid Moisturizing Eye Mask</h3>
+                        <p class="price">11.00SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    <div class="product" data-category="Makeup">
+                        <img src="img/Blush Palette.jpg" alt="product 12">
+                        <h3> Blush Palette</h3>
+                        <p class="price">12.99SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    <div class="product" data-category="Skin Care">
+                        <img src="img/Collagen Jelly Cream.jpg" alt="product 13">
+                        <h3> Collagen Jelly Cream</h3>
+                        <p class="price">5.95SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    <div class="product" data-category="Makeup">
+                        <img src="img/Cream Blush & Contour Palette.jpg" alt="product 14">
+                        <h3> Cream Blush & Contour Palette</h3>
+                        <p class="price">14.00SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+                    
+                    <div class="product" data-category="Makeup">
+                        <img src="img/Foundation Shade 05.jpg" alt="product 15">
+                        <h3> Foundation Shade 05</h3>
+                        <p class="price">7.7SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+                   
+                    <div class="product" data-category="Cosmetic and Skin Care Tools">
+                        <img src="img/Facial Cleansing Sponges.jpg" alt="product 16">
+                        <h3> Facial Cleansing Sponges</h3>
+                        <p class="price">6.00SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div> 
+
+                    <div class="product" data-category="Cosmetic and Skin Care Tools">
+                        <img src="img/Eyeliner Guide Tool.jpg"alt="product 17">
+                        <h3> Eyeliner Guide Tool</h3>
+                        <p class="price">3.25SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div> 
+     
+                    <div class="product" data-category="Makeup">
+                        <img src="img/Eyeshadow Palette.jpg"alt="product 18">
+                         <h3> Eyeshadow Palette</h3>            
+                        <p class="price">14.00SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div> 
+
+                    
+                    <div class="product" data-category="Makeup">
+                        <img src="img/Eyeshadow from Sheglam.jpg"alt="product 19">
+                         <h3> Eyeshadow from Sheglam</h3>            
+                        <p class="price">29.00SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div> 
+
+                    <div class="product" data-category="Cosmetic and Skin Care Tools">
+                        <img src="img/Hanging Travel Toiletry Bag.jpg"alt="product 20">
+                         <h3> Hanging Travel Toiletry Bag</h3>            
+                        <p class="price">13.00SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div> 
+
+                    <div class="product" data-category="Makeup">
+                        <img src="img/heart shaped blush.jpg"alt="product 21">
+                         <h3>heart shaped blush</h3>            
+                        <p class="price">8.00SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div> 
+
+                    <div class="product" data-category="Skin Care">
+                        <img src="img/Japan Cherry Blossom Peeling Gel.jpg"alt="product 22">
+                         <h3>apan Cherry Blossom Peeling Gel</h3>            
+                        <p class="price">6.80SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>   
+
+                    <div class="product" data-category="Skin Care">
+                        <img src="img/Japan Sakura Dark Spot Corrector Cream.jpg"alt="product 23">
+                         <h3>Japan Sakura Dark Spot Corrector Crea</h3>            
+                        <p class="price">5.10SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>   
+                    
+                    <div class="product" data-category="Skin Care">
+                        <img src="img/Japan Sakura Eye Serum.jpg"alt="product 24">
+                         <h3>Japan Sakura Dark Spot Corrector Crea</h3>            
+                        <p class="price">16.15SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    <div class="product" data-category="Skin Care">
+                        <img src="img/Japan Sakura Peel-Off Mask.jpg"alt="product 25">
+                         <h3>Japan Sakura Peel-Off Mask</h3>      
+                        <p class="price">21.00SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    <div class="product" data-category="Cosmetic and Skin Care Tools">
+                        <img src="img/Jewelry Box.jpg"alt="product 26">
+                         <h3>Jewelry Box</h3>      
+                        <p class="price">7.77SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    <div class="product" data-category="Skin Care">
+                        <img src="img/Laikou Japan Sakura Skincare Set.jpg"alt="product 27">
+                         <h3>Laikou Japan Sakura Skincare Set</h3>      
+                        <p class="price">22.95SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    
+                    <div class="product" data-category="Makeup">
+                        <img src="img/Lip Sleeping Mask Berry.jpg"alt="product 28">
+                         <h3>Lip Sleeping Mask Berry</h3>      
+                        <p class="price">7.65SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    <div class="product" data-category="Makeup">
+                        <img src="img/Liquid Lipstick Set.jpg"alt="product 29">
+                         <h3>LLiquid Lipstick Set</h3>      
+                        <p class="price">24.65SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    <div class="product" data-category="Cosmetic and Skin Care Tools">
+                        <img src="img/Makeup brush Cleaning Pad.jpg"alt="product 30">
+                         <h3>Makeup brush Cleaning Pad</h3>      
+                        <p class="price">8.00SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>  
+
+                    <div class="product" data-category="Cosmetic and Skin Care Tools">
+                        <img src="img/Makeup Remover Cloth.jpg"alt="product 31">
+                         <h3>Makeup Remover Cloth</h3>      
+                        <p class="price">12.00SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>   
+
+                    <div class="product" data-category="Cosmetic and Skin Care Tools">
+                        <img src="img/Manicure and Pedicure Set.jpg"alt="product 32">
+                         <h3>Manicure and Pedicure Set</h3>      
+                        <p class="price">9.50SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+                
+                    <div class="product" data-category="Cosmetic and Skin Care Tools">
+                        <img src="img/Pink Hair Accessories Set.jpg"alt="product 33">
+                         <h3>Pink Hair Accessories Set</h3>      
+                        <p class="price">14.45SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    <div class="product" data-category="Cosmetic and Skin Care Tools">
+                        <img src="img/Pocket Folding Mirror.jpg"alt="product 34">
+                         <h3>Pocket Folding Mirror</h3>      
+                        <p class="price">6.45SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    <div class="product" data-category= "Skin Care">
+                        <img src="img/Reveal Radiance Serum.jpg"alt="product 35">
+                         <h3>Reveal Radiance Serum</h3>      
+                        <p class="price">8.50SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+
+
+                    <div class="product" data-category= "Skin Care">
+                        <img src="img/Rose Hyaluronic Acid Moisturizing Cream.jpg"alt="product 36">
+                         <h3>Rose Hyaluronic Acid Moisturizing Cream</h3>      
+                        <p class="price">7.65SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    <div class="product" data-category= "Skin Care">
+                        <img src="img/Rose Hyaluronic Acid Moisturizing.jpg"alt="product 37">
+                         <h3>Rose Hyaluronic Acid Moisturizing</h3>      
+                        <p class="price">11.90SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    <div class="product" data-category= " Cosmetic Skin Care Tools">
+                        <img src="img/Rotating Makeup Organier.jpg"alt="product 38">
+                         <h3>Rotating Makeup Organier</h3>      
+                        <p class="price">15.88SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    <div class="product" data-category= "Makeup">
+                        <img src="img/Sheglam Skinfluence Solid Definer Contour Stick.jpg"alt="product 39">
+                         <h3>Sheglam Skinfluence Solid Definer Contour Stick</h3>      
+                        <p class="price">19.00SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    
+                    <div class="product" data-category= "Makeup">
+                        <img src="img/Shimmer Highlight Palette.jpg"alt="product 40">
+                         <h3>Shimmer Highlight Palette</h3>      
+                        <p class="price">11.05SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    <div class="product" data-category= "Cosmetic and Skin Care Tools">
+                        <img src="img/Silicone Face Mask Brushes.jpg"alt="product 41">
+                         <h3>Silicone Face Mask Brushes</h3>      
+                        <p class="price">6.80SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    <div class="product" data-category= "Makeup">
+                        <img src="img/Small Eyeshadow.jpg"alt="product 42">
+                         <h3>Small Eyeshadow</h3>      
+                        <p class="price">15.99SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    
+                    <div class="product" data-category= "Cosmetic and Skin Care Tools">
+                        <img src="img/Soft Cotton Bow Hairband.jpg"alt="product 43">
+                         <h3>Soft Cotton Bow Hairband</h3>      
+                        <p class="price">5.50SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+              
+                    <div class="product" data-category= "Cosmetic and Skin Care Tools">
+                        <img src="img/Spray Bottle.jpg"alt="product 44">
+                         <h3>Spray Bottle</h3>      
+                        <p class="price">3.50SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    <div class="product" data-category= "Skin Care">
+                        <img src="img/Strawberry Lip Scrub.jpg"alt="product 45">
+                         <h3>Strawberry Lip Scrub</h3>      
+                        <p class="price">15.30SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    <div class="product" data-category= " Cosmetic and Skin Care tools">
+                        <img src="img/Transparent Cosmetic Bag.jpg"alt="product 46">
+                         <h3>Transparent Cosmetic Bag</h3>      
+                        <p class="price">10.00SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    <div class="product" data-category= " Cosmetic and Skin Care tools">
+                        <img src="img/Transparent Pink Hair Clips.jpg"alt="product 47">
+                         <h3>Transparent Pink Hair Clips</h3>      
+                        <p class="price">3.50SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+                    
+                    <div class="product" data-category= " Cosmetic and Skin Care tools">
+                        <img src="img/Velcro Hair Rollers Set.jpg"alt="product 48">
+                         <h3>Velcro Hair Rollers Set</h3>      
+                        <p class="price">8.99SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+
+                    <div class="product" data-category= " Makeup">
+                        <img src="img/Velvet Matte Lipstick.jpg"alt="product 49">
+                         <h3>Velvet Matte Lipstick</h3>      
+                        <p class="price">15.30SR</p>
+                        <div class="product-actions">
+                            <button class="fav-btn"> <i class="fa-regular fa-heart"></i> Add to favorites</button>
+                       <button class="cart-btn"><i class="fa-solid fa-cart-shopping"></i> Add to cart</button>
+                        </div>  
+                    </div>
+
+
+
+
+
+
+    </div>
+</section>
+
+<script src="store.js"></script>
+</body>
+</html>
